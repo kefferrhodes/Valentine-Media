@@ -1,0 +1,162 @@
+body{
+    background-color: cadetblue;
+    background-image: url(/Images/wedding2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    margin: 0;
+    font-family: 'Playfair Display', serif; 
+}
+
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size:32;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+/* Youtube video parameters
+*/
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.navi{
+    background-color:white;
+    border: none;
+	height: 200px;
+	padding: 0 15px;
+}
+
+.navi-floater{
+    font-family: 'Playfair Display', serif;
+    color: dimgray;
+    line-height: 80px;
+    letter-spacing: -0.025eml;
+    text-transform: none;
+    float: right;
+    word-spacing: 7px;
+}
+
+.container1{
+    background-color: white; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding-right: 6px
+}
+
+.transparancy{
+    background-color: transparent;
+    height: auto;
+    max-height: 300px;
+    text-align: center;
+    
+}
+
+.solid{
+    background-color: white;
+    height: auto;
+    
+    
+}
+
+.videocontainer{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Disabling the video for smaller screens
+*/
+
+@media (max-width: 750px) {
+    .videodiv {
+        display: none;
+        
+    }
+}
+
+    /* Dropdown
+    */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-family: 'Playfair Display', serif;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 20px;
+    z-index: 1;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner-photography{ 
+}
+
+.container-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.white-spacer{ 
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 40;
+    color: cadetblue;
+}
+
+.textboxbox {
+    text-align: center; 
+    padding-bottom: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+.textbox{
+    background-color: white;
+}
+.textbox:after {
+	background-color: white;
+    padding: 20px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .textboxbox {
+        width: 100%;
+}
